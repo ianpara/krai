@@ -1,0 +1,12 @@
+---
+items:
+  - text: Location
+    url: "#"
+  - text: Itinerary
+    url: "#"
+  - text: Schedule
+    url: "#"
+  - text: Availability
+    url: "#"
+  - text: Login
+    url: "/blog"

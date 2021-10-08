@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Alpha';
+    src: url('Alpha-Headline.woff2') format('woff2'),
+        url('Alpha-Headline.woff') format('woff'),
+        url('Alpha-Headline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeubauGrotesk';
+    src: url('NeubauGrotesk.woff2') format('woff2'),
+        url('NeubauGrotesk.woff') format('woff'),
+        url('NeubauGrotesk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

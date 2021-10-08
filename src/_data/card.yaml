@@ -1,0 +1,14 @@
+---
+items:
+  - title: Camping
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    image: "./static/img/card-1.png"
+    alt: "Tent and bonfire in front of mountain"
+  - title: Sightseeing
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    image: "./static/img/card-2.png"
+    alt: "Binoculars and waterfall"
+  - title: Hiking
+    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    image: "./static/img/card-3.png"
+    alt: "Hiker in front of forest and mountain"

@@ -1,0 +1,16 @@
+{% if card.items %}
+
+{% for item in card.items %}
+<div class="shadow-2xl transform transition-transform duration-300 ease-in-out hover:scale-105">
+    <img class="w-full" src={{item.image}} alt={{item.alt}} >
+    <div class="px-16 pt-4 pb-10 bg-primary font-neub text-center border-b-8 border-secondary">
+      <div class="text-white font-bold text-3xl mb-2">{{item.title}}</div>
+      <p class="text-white text-sm">
+        {{item.text}}
+      </p>
+      <button class="mt-4 bg-secondary text-white px-4 py-2 w-2/3">Explore</button>
+    </div>
+</div>
+{% endfor %}
+
+{% endif %}
