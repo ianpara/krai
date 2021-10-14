@@ -5,9 +5,9 @@ path: home
 ---
 <div class="relative overflow-hidden w-full h-screen flex">
   <div class="absolute w-full h-screen bg-hero-sky bg-no-repeat bg-cover z-0" data-rellax-speed="-10"></div>
-  <div class="absolute w-full h-full bg-hero-mnt bg-no-repeat bg-cover bg-center rellax z-10" data-rellax-speed="-4"></div>
+  <div class="absolute w-full h-full bg-hero-mnt bg-no-repeat bg-cover bg-center rellax z-10" data-rellax-speed="-8"></div>
   <div class="absolute w-full h-screen bg-hero-bear bg-no-repeat bg-bottom bg-cover z-30 pointer-events-none"></div>
-  <div class="absolute w-full h-screen flex items-center rellax z-20" data-rellax-speed="-8">
+  <div class="absolute w-full h-screen flex items-center rellax z-20" data-rellax-speed="-6">
     <article class="container text-white">
         <div class="">
           <h1 class="font-alpha text-13xl leading-none -ml-5">KRAI*</h1>
@@ -40,37 +40,14 @@ path: home
 
 <article class="bg-gradient-1 py-28">
   <div class="container">
+
     <div class="flex flex-nowrap justify-between pb-8 border-b border-primary border-opacity-70">
       <h2 class="font-neub text-white text-5xl leading-none w-80">Browse our Gallery</h2>
       <p class="text-white"><span class="text-highlight font-bold">02</span> / Browse our Gallery</p>
     </div>
     <p class="text-white font-neub w-4/6 pt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
     
-    <div class="flex py-10">
-      <div class="bg-gradient-2 border-l-8 border-secondary h-20 flex justify-center items-center flex-auto">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 transform rotate-180" width="19" height="26" viewBox="0 0 19 26">
-          <polygon fill="#fff" fill-rule="evenodd" points="0 0 0 26 19 12.997"/>
-        </svg>
-      </div>
-      <div class="w-7/12">
-        <img src="./static/img/on-rock.png" alt="">
-      </div>
-      <div class="w-2/5">
-        <div class="flex justify-between py-4 px-8 text-white font-neub bg-primary">
-          <h3 class="text-3xl w-32 leading-none">Kamchatka Solitude</h3>
-          <p>2021</p>
-        </div>
-        <div class="flex flex-col gap-5 p-8 text-white font-neub">
-          <p class="text-secondary font-bold ">Photographer:</p>
-          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dignissimos fugiat pariatur possimus asperiores ullam vel.</p>
-          <p class="font-bold">Year:</p>
-          <p class="text-sm">2021</p>
-          <p class="font-bold">Narrative:</p>
-          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas debitis similique molestias tenetur cupiditate. Earum consectetur, fugit provident aperiam commodi quod iure! Sapiente fugiat error commodi voluptatem asperiores excepturi explicabo.</p>
-          <button class="mt-4 bg-secondary text-white px-4 py-2 w-1/2">Expand Photo</button>
-        </div>
-      </div>   
-    </div>
+    {% include "./_includes/partials/gallery.html" %}
 
   </div>
 </article>

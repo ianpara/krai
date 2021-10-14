@@ -21,6 +21,8 @@ module.exports = {
         'primary': '#463DB2',
         'primary-dark': '#0A0616',
         'secondary': '#CE3434',
+        'tertiary': '#7B98DA',
+        'quaternary': '#F9A251',
         'highlight': '#601414',
         'gradient-1': '#0C0D38',
         'gradient-2': '#1b1e61',
@@ -33,10 +35,16 @@ module.exports = {
       fontSize: {
         '13xl': '13rem',
       },
+      height: {
+        '104': '34.5rem',
+      },
       backgroundImage: {
         'hero-sky': "url('/static/img/sky-min.png')",
         'hero-mnt': "url('/static/img/midground-min.png')",
         'hero-bear': "url('/static/img/foreground-bottom.png')",
+        'card-1': "url('/static/img/card-1.png')",
+        'card-2': "url('/static/img/card-2.png')",
+        'card-3': "url('/static/img/card-3.png')",
       }
     },
   },

@@ -1,9 +1,10 @@
 {% if card.items %}
 
 {% for item in card.items %}
-<div class="shadow-2xl transform transition-transform duration-300 ease-in-out hover:scale-105">
-    <img class="w-full" src={{item.image}} alt={{item.alt}} >
-    <div class="px-16 pt-4 pb-10 bg-primary font-neub text-center border-b-8 border-secondary">
+<div class="relative shadow bg-primary transform transition-transform duration-300 ease-in-out hover:scale-105 backface-hidden">
+    <div class="absolute font-neub ml-4 mt-4 tracking-wider"><span class="text-white text-3xl">0{{item.number}}</span><span class="text-secondary text-xl">/03</span></div>
+    <div class="w-full h-96 bg-card-{{item.number}} bg-no-repeat bg-center bg-cover"></div>
+    <div class="px-16 pt-4 pb-10 bg-primary font-neub text-center border-b-8 border-{{item.color}}">
       <div class="text-white font-bold text-3xl mb-2">{{item.title}}</div>
       <p class="text-white text-sm">
         {{item.text}}
